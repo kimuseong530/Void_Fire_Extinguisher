@@ -1,0 +1,20 @@
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# VS Code
+.vscode/
+
+# 자격증명 (WiFi/MQTT 정보) - 절대 커밋 금지
+src/secrets.h
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 빌드 산출물
+*.o
+*.elf
+*.bin
+*.map
