@@ -24,11 +24,11 @@
 // ── 키패드 아날로그 임계값 (플레이스홀더) ─────
 // ⚠️ 3.3V 구동 기준 실측 후 반드시 교체할 것
 #define KEY_THRESH_NONE   4000
-#define KEY_THRESH_RIGHT  300
-#define KEY_THRESH_UP     900
-#define KEY_THRESH_DOWN   1700
-#define KEY_THRESH_LEFT   2600
-#define KEY_THRESH_AUX    3500
+#define KEY_THRESH_RIGHT  1800
+#define KEY_THRESH_UP     300
+#define KEY_THRESH_DOWN   1000
+#define KEY_THRESH_LEFT   0
+#define KEY_THRESH_AUX    2700
 
 // ── FreeRTOS 태스크 설정 ─────────────────────
 #define TASK_STACK_INPUT   2048
